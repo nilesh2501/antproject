@@ -26,9 +26,9 @@
             </not>
         </condition>
     </fail>
-     <path id="m2.path">
-  <fileset dir="/opt/tomcat" includes="**/*.jar"/>
-</path>
+   <path id="m2.path">
+      <fileset dir="/opt/tomcat" includes="**/*.jar"/>
+    </path>
 
     <target depends="dist,javadoc" description="Build whole project." name="default"/>
     <!--
