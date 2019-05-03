@@ -300,7 +300,7 @@ or ant -Dj2ee.platform.classpath=&lt;server_classpath&gt; (where no properties f
                         </dirset>
                     </src>
                     <classpath>
-                        <path path="/opt/tomcat/apache-tomcat-8.5.40"/>
+                        <path path="@{classpath}>
                     </classpath>
                     <compilerarg line="${endorsed.classpath.cmd.line.arg}"/>
                     <compilerarg line="${javac.compilerargs}"/>
